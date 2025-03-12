@@ -6,7 +6,7 @@
 	boot.loader.grub = {
 		enable = true;
 		useOSProber = true;
-		device = [ "nodev" ];
+		devices = [ "nodev" ];
 		efiSupport = true;
         configurationLimit = 5;
         theme = ./config;

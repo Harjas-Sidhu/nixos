@@ -3,7 +3,6 @@
 {
     programs.ghostty = {
 		enable = true;
-		shellIntegration.enableZshIntegration = true;
 
 		settings = {
 			font-size = 14;
