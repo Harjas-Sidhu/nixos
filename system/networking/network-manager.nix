@@ -1,6 +1,6 @@
 { config, pkgs, variables, ... }:
 
 {
-	neworking.hostname = varibales.hostname;
+	neworking.hostname = variables.hostname;
 	networking.networkmanager.enable = true;
 }
