@@ -18,7 +18,7 @@
         zig.url = "github:mitchellh/zig-overlay";
   	};
 
-  	outputs = { self, nixpkgs, home-manager }@inputs :
+  	outputs = { self, nixpkgs, nixpkgs-stable, systems, hardware, stylix, zen-browser, ghostty, zig, home-manager }@inputs :
 		let
 			variables = import ./variables.nix;
 			system = variables.system;
