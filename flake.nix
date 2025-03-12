@@ -39,7 +39,7 @@
                         home-manager.nixosModules.home-manager {
                             home-manager.useGlobalPkgs = true;
                             home-manager.useUserPackages = true;
-                            home-manager.users.${variables.username} = import ./home.nix;
+                            home-manager.users.${variables.username} = import ./home;
                             home-manager.extraSpecialArgs = {
                                 inherit variables inputs;
                             };
