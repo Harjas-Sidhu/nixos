@@ -5,6 +5,7 @@
 		./rofi
         ./neovim
         ./git
+        ./ghostty
 	];
 
 	home.username = variables.username;
