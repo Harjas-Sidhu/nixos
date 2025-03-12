@@ -1,7 +1,7 @@
 { config, lib, pkgs, variables, ... }:
 
 {
-	users.user.${variables.username} = {
+	users.users.${variables.username} = {
 		isNormalUser = true;
 		extraGroups = ["networkmanager" "wheel" "audio" "video" "camera" "fs"];
 		initialPassword = variables.initialPassword;
