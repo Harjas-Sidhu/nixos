@@ -5,9 +5,10 @@
 		enable = true;
 
 		settings = {
-			font-size = 14;
+			font-size = 15;
 			font-family = "JetBrainsMono Nerd Font Mono";
 			window-theme = "dark";
+            theme = "GruvboxDarkHard";
 		};
 	};
 }
