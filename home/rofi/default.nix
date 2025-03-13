@@ -20,16 +20,16 @@
         theme = ./themes/launcher.rasi;
     };
 
-    home.file."~/.config/rofi/config.rasi" = {
+    home.file.".config/rofi/config.rasi" = {
         source = ./config.rasi;
     };
 
-    home.file."~/.config/rofi/themes" = {
+    home.file.".config/rofi/themes" = {
         recursive = true;
         source = ./themes;
     };
 
-    home.file."~/.config/rofi/images" = {
+    home.file.".config/rofi/images" = {
         recursive = true;
         source = ./images;
     };
