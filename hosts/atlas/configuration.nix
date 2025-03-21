@@ -30,6 +30,7 @@
         pkgs.nodejs
         pkgs.php
         pkgs.php84Packages.composer
+        inputs.zig.packages."${variables.system}"."master"
   	];
 
     nix.gc = {
