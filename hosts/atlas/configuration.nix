@@ -32,7 +32,12 @@
         pkgs.php84Packages.composer
         inputs.zig.packages."${variables.system}"."master"
         pkgs.foliate
+        pkgs.dconf
+        pkgs.gnome.dconf-editor
+        pkgs.glib
   	];
+
+    services.dbus.enable = true;
 
     nix.gc = {
         automatic = true;
