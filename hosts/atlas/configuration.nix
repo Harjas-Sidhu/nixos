@@ -33,7 +33,7 @@
         inputs.zig.packages."${variables.system}"."master"
         pkgs.foliate
         pkgs.dconf
-        pkgs.gnome.dconf-editor
+        pkgs.dconf-editor
         pkgs.glib
   	];
 
