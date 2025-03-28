@@ -31,6 +31,7 @@
         pkgs.php
         pkgs.php84Packages.composer
         inputs.zig.packages."${variables.system}"."master"
+        pkgs.foliate
   	];
 
     nix.gc = {
