@@ -35,6 +35,7 @@
         pkgs.dconf
         pkgs.dconf-editor
         pkgs.glib
+        pkgs.davinci-resolve
   	];
 
     services.dbus.enable = true;
