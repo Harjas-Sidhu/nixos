@@ -36,6 +36,8 @@
         pkgs.dconf-editor
         pkgs.glib
         pkgs.davinci-resolve
+        pkgs.lutris
+        pkgs.protonup-qt
   	];
 
     services.dbus.enable = true;
