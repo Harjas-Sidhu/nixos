@@ -40,6 +40,11 @@
         pkgs.protonup-qt
         pkgs.wineWowPackages.stable
         pkgs.winetricks
+        pkgs.glxinfo
+        pkgs.vulkan-tools
+        pkgs.vulkan-loader
+        pkgs.vulkan-validation-layers
+        pkgs.dxvk
   	];
 
     services.dbus.enable = true;
