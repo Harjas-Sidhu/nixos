@@ -38,8 +38,8 @@
         pkgs.davinci-resolve
         pkgs.lutris
         pkgs.protonup-qt
-        wineWowPackages.stable
-        winetricks
+        pkgs.wineWowPackages.stable
+        pkgs.winetricks
   	];
 
     services.dbus.enable = true;
